@@ -1,0 +1,144 @@
+/* block-event styles begin */
+.block-event{
+	overflow: hidden;
+	margin-bottom: 50px;
+	.title .btn-view-more{
+		position: absolute;
+		top: 50%;
+		right:0;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+.event-list{
+	@include box-flex;
+	overflow: hidden;
+	margin-bottom: 40px;
+	border-right: 1px solid #ccc;
+	> li{
+		border-left: 1px solid #ccc;
+		padding:0 28px;
+	}
+	.row{
+		overflow: hidden;
+		margin-bottom: 14px;
+		span,
+		a{
+			float: left;
+			width:98px;
+			color: white;
+			font-size: 12px;
+			line-height: 24px;
+			border:1px solid #f39700;
+			background: #f39700;
+			-moz-border-radius:3px;
+			-webkit-border-radius:3px;
+			border-radius:3px;
+			margin-right: 5px;
+			text-align: center;
+			&:last-child{
+				margin: 0;
+			}
+			&.btn-mark01{
+				border:1px solid #f39700;
+				background: #f39700;
+				color: white;
+			}
+			&.btn-mark02{
+				border:1px solid #25b5aa;
+				background: white;
+				color: #25b5aa;
+			}
+			&.btn-mark03{
+				border:1px solid #79c753;
+				background: #79c753;
+				color: white;
+			}
+			&.btn-mark04{
+				border:1px solid #dd4132;
+				background: white;
+				color: #dd4132;
+			}
+			&.btn-mark05{
+				border:1px solid #034f84;
+				background: #034f84;
+				color: white;
+			}
+			&.btn-mark06{
+				border:1px solid #9896a4;
+				background: #9896a4;
+				color: white;
+			}
+		}
+	}
+	h3{
+		font-size: 18px;
+		line-height: 24px;
+		color: $title-color;
+		min-height: 48px;
+		margin-bottom: 4px;
+		a{
+			text-decoration: none;
+			color: $title-color;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+	.info-list{
+		overflow: hidden;
+		font-size: 14px;
+		line-height: 20px;
+		color: $link-color;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 10px;
+		color: $text-color;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.event-list {
+		> li {
+			padding: 0 14px;
+		}
+		.row a{
+			width:78px;
+			font-size: 12px;
+			line-height: 20px;
+		}
+	}
+}
+@media only screen and (max-width: 800px){
+	.event-list{
+		display: block;
+		border: 0;
+		border-bottom: 1px solid #ccc;
+		margin:0 15px 24px;
+		> li{
+			border: 0;
+			border-top: 1px solid #ccc;
+			padding:20px 0 ;
+			p{
+				margin: 0;
+			}
+		}
+		h3{
+			min-height: 24px;
+			margin-bottom: 6px;
+		}
+		.info-list{
+			font-size: 12px;
+			line-height: 18px;
+			padding:0 4px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+}
+/* block-event styles end */

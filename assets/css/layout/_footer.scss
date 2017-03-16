@@ -1,0 +1,107 @@
+/* footer styles begin */
+#footer{
+	border-top: 1px #e5e5e5 solid;
+	padding: 28px 20px 60px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 20px;
+	color: white;
+	background: #666;
+	@media only screen and (max-width: 800px){
+		&{
+			padding-top: 50px;
+		}
+	}
+	a{
+		color: white;
+	}
+	.link-more{
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		padding-left: 12px;
+		font-size: 13px;
+		margin-bottom: 28px;
+		&:after{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 0;
+			height: 0;
+			border-top: 4px solid transparent;
+			border-left: 5px solid white;
+			border-bottom: 4px solid transparent;
+			margin-top: -4px;
+		}
+	}
+	.support{
+		display: inline-block;
+		vertical-align: top;
+		background: white;
+		font-size: 12px;
+		line-height: 40px;
+		color: #444;
+		padding:0 26px;
+		-moz-border-radius:9px;
+		-webkit-border-radius:9px;
+		border-radius:9px;
+		margin-bottom: 15px;
+		img{
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 8px;
+		}
+		@media only screen and (max-width: 800px){
+			font-size: 10px;
+			padding:0 10px;
+		}
+	}
+}
+.link-top{
+	@include box-sizing;
+	position: fixed;
+	bottom: 20px;
+	right:20px;
+	width:60px;
+	height:60px;
+	background: #ff4753;
+	text-align: center;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	color: white;
+	font-size: 12px;
+	line-height: 14px;
+	padding-top: 16px;
+	display: none;
+	&:hover{
+		text-decoration: none;
+		-moz-opacity:0.8;
+		opacity:0.8;
+	}
+	i{
+		display: block;
+		margin: 0 auto 4px;
+		font-size: 16px !important;
+	}
+	@media only screen and (max-width: 800px){
+		&{
+			right:50%;
+			bottom:5px;
+			transform:translateX(50%);
+			display: block !important;
+			position: absolute !important;
+			top: auto !important;
+			bottom: 220px !important;
+			text-decoration: none;
+			-moz-opacity:1 !important;
+			opacity:1 !important;
+			&:hover{
+				text-decoration: none;
+				-moz-opacity:1;
+				opacity:1;
+			}
+		}
+	}
+}

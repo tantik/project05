@@ -1,0 +1,166 @@
+/* block-work-placement styles begin */
+.block-work-placement{
+	overflow: hidden;
+	margin-bottom: 80px;
+	@media only screen and (max-width: 800px){
+		&{
+			margin-bottom: 60px;
+		}
+	}
+	> .holder{
+		overflow: hidden;
+		margin: 0 auto;
+		max-width: 1080px;
+		padding: 0 10px;
+	}
+	.holder-work-placement{
+		@include box-flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		@media only screen and (max-width: 800px){
+			&{
+				display: block;
+			}
+		}
+	}
+	.btn-work-placement{
+		width: 100%;
+		margin-right: 50px;
+		overflow: hidden;
+		ul{
+			overflow: hidden;
+			margin: -10px -14px 0;
+			li{
+				@include box-sizing;
+				float: left;
+				width: 50%;
+				padding: 10px 14px;
+			}
+			a{
+				display: block;
+				text-align: center;
+				position: relative;
+				background: url(../images/bg-btn-work-placement.gif);
+				overflow: hidden;
+				padding: 5px;
+				&:hover{
+					text-decoration: none;
+					-moz-opacity: 0.7;
+					opacity: 0.7;
+				}
+				span{
+					border: 1px solid #d5d4d4;
+					display: block;
+					background: #efefef;
+					overflow: hidden;
+					position: relative;
+					font-size: 18px;
+					line-height: 68px;
+					color: #111;
+					&:after{
+						content: '';
+						display: inline-block;
+						width:10px;
+						height:10px;
+						background: url(../images/i.png) no-repeat;
+						overflow: hidden;
+						vertical-align: middle;
+						margin-left: 8px;
+					}
+				}
+				@media only screen and (max-width: 800px){
+					&{
+						padding: 3px;
+						span{
+							font-size: 14px;
+							line-height: 34px;
+						}
+					}
+				}
+			}
+		}
+		@media only screen and (max-width: 800px){
+			&{
+				@include box-sizing;
+				padding: 0 40px;
+				margin: 0 0 20px;
+				ul{
+					margin: -5px -7px 0;
+					li{
+						padding: 5px 7px;
+					}
+				}
+			}
+		}
+	}
+	.link-map{
+		@include box-sizing;
+		width: 39%;
+		min-width: 435px;
+		padding: 0 44px 10px 0;
+		position: relative;
+		margin-top: -98px;
+		.image-map{
+			display: block;
+			width: 100%;
+		}
+		.item{
+			position: absolute;
+			overflow: hidden;
+			width: 76px;
+			height: 86px;
+			text-indent: -9999px;
+			@media only screen and (max-width: 800px){
+				&{
+					width: 60px;
+					height: 68px;
+				}
+			}
+			@media only screen and (max-width: 320px){
+				&{
+					width: 56px;
+					height: 63px;
+				}
+			}
+			&.item01{
+				background: url(../images/icon-map01.png) no-repeat;
+				background-size: 100% auto;
+				bottom:33%;
+				left: 8%;
+			}
+			&.item02{
+				background: url(../images/icon-map02.png) no-repeat;
+				background-size: 100% auto;
+				bottom:33%;
+				left:38%;
+			}
+			&.item03{
+				background: url(../images/icon-map03.png) no-repeat;
+				background-size: 100% auto;
+				bottom: 0;
+				left: 42%;
+			}
+			&.item04{
+				background: url(../images/icon-map04.png) no-repeat;
+				background-size: 100% auto;
+				bottom: 0;
+				left:62%;
+			}
+			&.active,
+			&.hover,
+			&:hover{
+				background-position: 0 100%;
+			}
+		}
+		@media only screen and (max-width: 800px){
+			&{
+				width: 100%;
+				margin: 0 auto;
+				max-width: 280px;
+				min-width: 260px;
+				padding: 0;
+			}
+		}
+	}
+}
+/* block-work-placement styles end */

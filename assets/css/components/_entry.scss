@@ -1,0 +1,39 @@
+/* block-entry styles begin */
+.block-entry{
+	overflow: hidden;
+	margin-bottom: 60px;
+	.entry-link{
+		overflow: hidden;
+		padding:20px 0 20px;
+		background: url(../images/bg-event-link.gif);
+		text-align: center;
+		.wrap{
+			overflow: hidden;
+			a{
+				display: inline-block;
+				vertical-align: text-bottom;
+				margin:10px 15px 20px;
+				border: 3px solid #96dcdd;
+				background: #fff;
+				text-align: center;
+				font-size: 20px;
+				line-height: 54px;
+				width: 194px;
+				-webkit-transition: opacity 0.5s;
+				-moz-transition: opacity 0.5s;
+				-ms-transition: opacity 0.5s;
+				-o-transition: opacity 0.5s;
+				transition: opacity 0.5s;
+				-moz-opacity:1;
+				opacity:1;
+				&:hover{
+					text-decoration: none;
+					-moz-opacity:0.8;
+					opacity:0.8;
+					box-shadow:0 0 3px 3px rgba(150, 220, 221, .4);
+				}
+			}
+		}
+	}
+}
+/* block-entry styles end */

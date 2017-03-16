@@ -1,0 +1,97 @@
+/* experience-block styles begin */
+.experience-block{
+	overflow: hidden;
+	background-image: url(../images/bg-experience-block.gif);
+	border-top: 1px dotted #a8a7a7;
+	padding:48px 0 80px;
+	margin-bottom: 48px;
+	@media only screen and (max-width: 800px){
+		&{
+			padding:35px 50px;
+		}
+	}
+	.center-box{
+		@include box-flex;
+		@media only screen and (max-width: 800px){
+			&{
+				display: block;
+			}
+		}
+	}
+	.box{
+		@include box-flex;
+		max-width: 910px;
+		width: 100%;
+		margin-right: 50px;
+		position: relative;
+		@media only screen and (max-width: 1100px){
+			&{
+				margin-right: 20px;
+			}
+		}
+		@media only screen and (max-width: 800px){
+			&{
+				display: block;
+				margin: 0;
+			}
+		}
+		a{
+			display: block;
+			position: relative;
+			margin-left: 10px;
+			&:first-child{
+				margin: 0;
+			}
+			span{
+				position: absolute;
+				bottom: -30px;
+				left: 0;
+				font-size: 12px;
+				line-height: 14px;
+				color: #333;
+			}
+			@media only screen and (max-width: 800px){
+				&{
+					display: block;
+					margin: 0 0 45px !important;
+					span{
+						bottom: -20px;
+					}
+				}
+			}
+		}
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+	.banner-experience{
+		max-width: 240px;
+		width: 20%;
+		@include box-flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		@media only screen and (max-width: 1100px){
+			&{
+				width: 26%;
+			}
+		}
+		@media only screen and (max-width: 800px){
+			&{
+				width: 100%;
+				max-width: 100%;
+				display: block;
+				li{
+					margin:25px 0 0;
+				}
+			}
+		}
+		img{
+			display: block;
+			width: 100%;
+		}
+	}
+}
+/* experience-block styles end */
