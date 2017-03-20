@@ -1,12 +1,51 @@
+
 $(document).ready(initPage);
+
+// polyfill`s
+(function(){
+
+	// trigger to two class
+	Element.prototype.toggle2class = function(first,second){
+
+        var find = (this.classList.contains(first))? 'first' : this.classList.contains(second);
+
+        switch(find){
+            case 'first':
+                this.classList.remove(first);
+                this.classList.add(second);
+                break;
+            case true:
+                this.classList.remove(second);
+                this.classList.add(first);
+                break;
+            default:
+                this.classList.add(first);
+        }
+
+        return this;
+    }
+
+}());
+
+
 function initPage(){
 	initNav();
 	swiperGallery();
 	initMap();
 	initLinkTop();
+	initConsulting();
 	
 	//var T = footer.getBoundingClientRect();
 	//console.log(getOffsetRect(footer) );
+}
+
+function initConsulting() {
+    $('.info-consulting .open-link').click(function(e){
+        e.preventDefault();
+
+        $(this).prev().slideToggle(300);
+        e.target.toggle2class('fa-chevron-down','fa-chevron-up');
+    });
 }
 
 

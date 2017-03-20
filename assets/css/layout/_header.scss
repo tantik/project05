@@ -134,14 +134,6 @@
 				color: #ff4753;
 				text-decoration: none;
 			}
-			&.sub-nav:after{
-				content: "";
-				display: inline-block;
-				width: 9px;
-				height: 6px;
-				background: url(../images/arrow00.png) no-repeat 0 50%;
-				margin-left: 6px;
-			}
 			span{
 				display: block;
 				white-space: nowrap;
@@ -240,7 +232,7 @@
 			height: 74px;
 		}
 		.logo {
-			width:230px;
+			width:72%;
 			background-size: 80% auto;
 			background-position: 50%;
 			height:76px;
@@ -369,7 +361,9 @@
 					height: auto;
 					text-align: left;
 					color: #000;
-
+					& > i{
+						display: none;
+					}
 					&:after{
 						display: none;
 					}

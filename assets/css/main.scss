@@ -13,7 +13,9 @@
 @import "components/placement";
 @import "components/promo";
 @import "components/social";
-
+@import "components/consulting";
+@import "components/search";
+@import "components/column";
 
 /* main styles begin */
 .wrapper{
@@ -22,6 +24,7 @@
 }
 #main{
   padding-bottom: 100px;
+  position: relative;
   @media only screen and (max-width: 800px){
     &{
       padding-bottom: 30px;
@@ -78,11 +81,197 @@
     }
   }
 }
-
-
-
-
-
-
-
+/* block-inner-top styles begin */
+.block-inner-top{
+  @include box-flex;
+  @include center;
+  @include space-between;
+  overflow: hidden;
+  height: 150px;
+  margin: 0 0 95px;
+  h1{
+    overflow: hidden;
+    height: 66px;
+    text-indent: -9999px;
+    width: 100%;
+  }
+  &.consulting{
+    background: url(../images/bg-consulting.png) 50%;
+    & h1{
+      background: url(../images/title-inner-top01.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.event{
+    background: url(../images/bg-event.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top02.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.column{
+    background: url(../images/bg-column.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top03.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    &{
+      margin: 0 0 34px;
+    }
+  }
+}
+/* block-inner-top styles end */
+.counselors-info{
+  overflow: hidden;
+  text-align: center;
+  h2{
+    font-size: 16px;
+    line-height: 28px;
+    color: #444;
+    margin-bottom: 18px;
+    font-weight: normal;
+  }
+  & .box{
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #ddd;
+    background: #fff;
+    text-align: center;
+    max-width: 790px;
+    padding: 16px 5px 18px;
+    h3{
+      font-size: 22px;
+      line-height:28px;
+      color: #444;
+      a{
+        color: #444;
+        text-decoration: none;
+      }
+    }
+    p{
+      font-size: 14px;
+      line-height:28px;
+      color: #444;
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    &{
+      margin-bottom: 60px;
+      padding: 0 37px;
+      h2{
+        font-size: 14px;
+        line-height: 25px;
+      }
+      & .box{
+        h3{
+          font-size: 20px;
+          line-height: 24px;
+          margin-bottom: 4px;
+        }
+        p{
+          font-size: 12px;
+          line-height:20px;
+        }
+      }
+    }
+  }
+}
+.bottom-breadcrumbs{
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  right:10px;
+  @media only screen and (max-width: 800px) {
+    &{
+      display: none;
+    }
+  }
+  ul{
+    margin:0 auto;
+    max-width: 1200px;
+    @include box-flex;
+    li{
+      padding-right: 8px;
+      font-size: 14px;
+      line-height: 18px;
+      color: #444;
+    }
+  }
+}
+/* paging-list styles begin */
+.paging-list{
+  overflow: hidden;
+  ul{
+    @include box-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    li{
+      margin:0 5px;
+      a{
+        display: block;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        line-height: 38px;
+        color: #444;
+        background: #fff;
+        padding: 0 20px;
+        text-decoration: none;
+        &.active,
+        &:hover{
+          text-decoration: none;
+          background: #eee;
+        }
+        &.add{
+          color: #ccc;
+          text-decoration: none;
+          background: #fff;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    &{
+      margin: 0 0 34px;
+      ul{
+        li{
+          a{
+            padding: 0 12px;
+          }
+        }
+      }
+    }
+  }
+}
+.push-event{
+  display: block;
+  border: 1px solid #e7326d;
+  background: #e7326d;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 48px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  &:hover{
+    background: #fff;
+    color: #e7326d;
+    text-decoration: none;
+  }
+}
+/* paging-list styles end */
 /* main */

@@ -1,0 +1,186 @@
+/* search styles begin */
+.block-search{
+  overflow: hidden;
+  background: #f4f4f4;
+  border-bottom: 1px dotted #acaaaa;
+  .center-box{
+    @include box-flex;
+    @include box-sizing;
+    padding: 20px 30px;
+    overflow: hidden;
+    .text-title{
+      margin: 0 60px 0 0;
+      width: 119px;
+      min-width: 119px;
+      height: 39px;
+      background:url(../images/text01.png) no-repeat;
+      overflow: hidden;
+      text-indent: -9999px;
+    }
+    .col{
+      @include box-flex;
+      @include space-between;
+      width: 100%;
+      margin: 0 50px 0 0;
+      overflow: hidden;
+      .select{
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #888;
+        background: #fff;
+        height:38px;
+        width:100%;
+        margin-right: 10px;
+        &:before{
+          position: absolute;
+          right: 10px;
+          top: 0;
+          bottom: 0;
+          line-height: 36px;
+          font-size: 14px;
+          color: #888;
+        }
+        select{
+          @include box-sizing;
+          width: 100%;
+          height:38px;
+          display: block;
+          border: 0;
+          padding:5px 17px;
+          font-size: 14px;
+          line-height: 20px;
+          color: #444;
+          border: 0;
+          box-shadow: none;
+          background-color: transparent;
+          background-image: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          outline: none;
+        }
+      }
+      .submits-btn{
+        display: block;
+        border: 0;
+        box-shadow: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        width: 100px;
+        min-width: 100px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        background: #444444;
+        background: -moz-linear-gradient(top,  #444444 0%, #444444 50%, #3e3e3e 50%, #3e3e3e 100%);
+        background: -webkit-linear-gradient(top,  #444444 0%,#444444 50%,#3e3e3e 50%,#3e3e3e 100%);
+        background: linear-gradient(to bottom,  #444444 0%,#444444 50%,#3e3e3e 50%,#3e3e3e 100%);
+      }
+    }
+    .box-search{
+      border: 1px solid #888;
+      width:290px;
+      min-width: 290px;
+      position: relative;
+      background: #fff;
+      &:after{
+        content:'';
+        display:block;
+        clear:both;
+      }
+      .text-search{
+        @include box-sizing;
+        float: left;
+        border: 0;
+        box-shadow: none;
+        background: #fff;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        width:242px;
+        height:38px;
+        font-size: 14px;
+        line-height: 16px;
+        padding:10px 17px;
+      }
+      .fa{
+        position: absolute;
+        display: block;
+        top: -1px;
+        right: -1px;
+        bottom: -1px;
+        width: 46px;
+        height: 40px;
+        background: #444;
+        &:before{
+          position: absolute;
+          width: 46px;
+          height: 40px;
+          top: 0;
+          left: 0;
+          text-align: center;
+          line-height: 38px;
+          font-size: 16px;
+          color: #fff;
+          font-size: 16px;
+          line-height: 39px;
+          color: #fff;
+        }
+        input{
+          display: block;
+          border: 0;
+          box-shadow: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          outline: none;
+          width: 46px;
+          height: 40px;
+          overflow: hidden;
+          text-indent: -9999px;
+          outline: none;
+          background: none;
+          position: relative;
+          z-index: 2;
+          padding: 0;
+          margin: 0;
+          cursor: pointer;
+        }
+      }
+    }
+    @media only screen and (max-width: 800px) {
+      &{
+        display: block;
+        .text-title{
+          display: block;
+          margin: 0 auto 18px;
+          background:url(../images/text01m.png) no-repeat 50%;
+          background-size: 118px 35px;
+        }
+        .col{
+          display: block;
+          .select{
+            @include box-sizing;
+            display: block;
+            margin: 0 0 10px;
+          }
+          .submits-btn{
+            margin: 0 auto 30px;
+          }
+        }
+        .box-search{
+          @include box-sizing;
+          width: 100%;
+          margin: 0 0 10px;
+        }
+      }
+    }
+  }
+}
+/* search styles end */
