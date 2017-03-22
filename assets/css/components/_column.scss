@@ -154,6 +154,9 @@
       overflow: hidden;
       &:hover{
         text-decoration: none;
+        h2{
+          text-decoration: underline;
+        }
       }
       .image{
         width: 100%;
@@ -253,6 +256,9 @@
       font-size: 14px;
       line-height: 25px;
       color: #888;
+      &:before{
+        padding:0 6px 0 0;
+      }
     }
     & i{
       float: left;
@@ -278,7 +284,7 @@
     margin-bottom: 14px;
     img{
       display: block;
-      width: 100%;
+      max-width: 100%;
     }
   }
   & p{
@@ -357,7 +363,7 @@
         }
         & i{
           float: none;
-          display: block;
+          display: inline-block;
         }
       }
       & h2{

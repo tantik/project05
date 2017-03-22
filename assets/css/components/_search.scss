@@ -58,7 +58,13 @@
           -moz-appearance: none;
           appearance: none;
           outline: none;
+          &:focus{
+			    outline: none;
+			}
         }
+        select::-ms-expand {
+		    display: none;
+		}
       }
       .submits-btn{
         display: block;

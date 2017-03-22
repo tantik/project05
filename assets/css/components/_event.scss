@@ -125,6 +125,9 @@
     color: #ff4753;
     margin-bottom: 20px;
     text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 }
 @media only screen and (max-width: 1100px){
@@ -158,13 +161,8 @@
 			margin-bottom: 6px;
 		}
 		.info-list{
-			font-size: 12px;
-			line-height: 18px;
 			padding:0 4px;
 			margin-bottom: 10px;
-		}
-		p{
-			font-size: 12px;
 		}
 	}
 }
@@ -354,7 +352,7 @@
 			margin-bottom: 10px;
 			img{
 				display: block;
-				width: 100%;
+				max-width: 100%;
 			}
 		}
 		.push-event{
@@ -474,6 +472,9 @@
 		-o-transition: all 0.5s;
 		transition: all 0.5s;
 		box-shadow:0 0 3px 3px rgba(224, 224, 224, 0.7);
+	}
+	@media only screen and (max-width: 800px) {
+	  &{margin: 49px auto 30px;}
 	}
 }
 

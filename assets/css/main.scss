@@ -17,6 +17,7 @@
 @import "components/search";
 @import "components/column";
 @import "components/interview";
+@import "components/privacypolicy";
 
 /* main styles begin */
 .wrapper{
@@ -124,6 +125,14 @@
     margin-bottom: 0;
     & h1{
       background: url(../images/title-inner-top04.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.privacy-policy{
+    background: url(../images/bg-privacy-policy.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top05.png) no-repeat 50%;
       background-size: auto 66px;
     }
   }

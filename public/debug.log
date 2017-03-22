@@ -4,3 +4,26 @@
 [0318/152215.955:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
 [0322/111705.483:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
 [0322/112353.627:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0322/204149.683:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/204149.793:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/204149.802:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/204915.776:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/204915.862:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/204915.867:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/204915.967:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/210852.485:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/210852.624:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/210852.680:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/211830.296:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/211830.387:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/211830.449:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/212332.355:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/212332.483:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/212332.493:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/212332.520:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/212447.751:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/212447.847:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/212447.902:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0322/214132.293:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\temp: Отказано в доступе. (0x5)
+[0322/214132.402:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0322/214132.503:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
