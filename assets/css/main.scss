@@ -16,6 +16,7 @@
 @import "components/consulting";
 @import "components/search";
 @import "components/column";
+@import "components/interview";
 
 /* main styles begin */
 .wrapper{
@@ -115,6 +116,14 @@
     margin-bottom: 0;
     & h1{
       background: url(../images/title-inner-top03.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.interview{
+    background: url(../images/bg-interview.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top04.png) no-repeat 50%;
       background-size: auto 66px;
     }
   }
@@ -274,4 +283,30 @@
   }
 }
 /* paging-list styles end */
+.ps{
+  display: block !important;
+  @media only screen and (max-width: 800px) {
+    &{
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    &{
+      display: block !important;
+    }
+  }
+}
+.sp{
+  display: none !important;
+  @media only screen and (max-width: 800px) {
+    &{
+      display: block !important;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    &{
+      display: none !important;
+    }
+  }
+}
 /* main */
