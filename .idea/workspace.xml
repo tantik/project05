@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee6e9e79-700b-4d7d-b3ce-c9a4a61c229d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/arrow00.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/components/_column.scss" afterPath="$PROJECT_DIR$/assets/css/components/_column.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/components/_event.scss" afterPath="$PROJECT_DIR$/assets/css/components/_event.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/components/_experience.scss" afterPath="$PROJECT_DIR$/assets/css/components/_experience.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/layout/_header.scss" afterPath="$PROJECT_DIR$/assets/css/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.scss" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/column-inner.html" afterPath="$PROJECT_DIR$/public/column-inner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/column.html" afterPath="$PROJECT_DIR$/public/column.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-    </list>
+    <list default="true" id="ee6e9e79-700b-4d7d-b3ce-c9a4a61c229d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -535,12 +523,12 @@
       <workItem from="1489672607613" duration="1851000" />
       <workItem from="1489674513413" duration="191000" />
       <workItem from="1489675057199" duration="31844000" />
-      <workItem from="1489836620098" duration="20387000" />
+      <workItem from="1489836620098" duration="20986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61370000" />
+    <option name="totallyTimeSpent" value="61969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
