@@ -1,6 +1,7 @@
 /* privacy-policy begin*/
 .block-privacy-policy{
   overflow: hidden;
+  padding: 90px 16px 0;
   h2{
     color: #ff4753;
     font-size: 24px;
@@ -16,7 +17,127 @@
   .holder-privacy-policy{
     margin:60px 0;
     background: white;
+    border: 1px solid #ccc;
+    padding: 52px 110px 30px;
+    & h2{
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: normal;
+      color: #444;
+      text-align: center;
+      margin: 0 0 34px;
+    }
+    & .tar{
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: normal;
+      color: #444;
+      text-align: right;
+      margin: 0 0 30px;
+    }
+    & .date{
+      overflow: hidden;
+      margin-bottom: 20px;
+      span{
+        display: block;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: normal;
+        color: #444;
+      }
+    }
+    & .address{
+      overflow: hidden;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: normal;
+      color: #444;
+      text-align: right;
+      span{
+        display: block;
+      }
+    }
+  }
+  .btn-more-about{
+    display: block;
+    padding-left: 18px;
+    position: relative;
+    color: #333;
+    &:before{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  img.aling-left{
+    float: left;
+    margin: 0 20px 10px 14px;
+  }
+  .st{
+    display: block;
+  }
+  .remember-list{
+    margin:0 0 50px;
+    padding:0 0 0 20px;
+    list-style:decimal;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #444;
+  }
+  .remember-list li{
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  @media only screen and (max-width: 800px) {
+    &{
+      padding: 20px 16px 0;
+      h2{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 25px;
+      }
+      .holder-privacy-policy{
+          margin: 0 0 35px;
+          padding:25px 20px;
+        & h2{
+            font-size: 14px;
+            line-height: 25px;
+            margin-bottom: 30px;
+          }
+        & .tar{
+          font-size: 14px;
+          line-height: 25px;
+          text-align: left;
+          margin: 0 0 30px;
+        }
+        & .date{
+          margin-bottom: 20px;
+          span{
+            font-size: 14px;
+            line-height: 25px;
+          }
+        }
+        & .address{
+          font-size: 14px;
+          line-height: 25px;
+          text-align: left;
+        }
+      }
+      .remember-list{
+        font-size: 14px;
+        line-height: 25px;
+        li{
+          margin-bottom: 24px;
+        }
+      }
 
+    }
   }
 }
 /* privacy-policy end*/

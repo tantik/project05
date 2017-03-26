@@ -34,9 +34,26 @@ function initPage(){
 	initMap();
 	initLinkTop();
 	initConsulting();
+    initQa();
+    initOpentext();
 	
 	//var T = footer.getBoundingClientRect();
 	//console.log(getOffsetRect(footer) );
+}
+function initOpentext() {
+    $('.block-about .about-list-info li .open-text').click(function(e){
+        e.preventDefault();
+        $(this).prev().slideToggle(300);
+        e.target.toggle2class('fa-chevron-down','fa-chevron-up');
+    });
+}
+function initQa() {
+    $('.block-qa .list-qa li').click(function(e){
+        e.preventDefault();
+        $(this).siblings().removeClass("active");
+        $(this).toggleClass("active");
+        $(this).children('p').slideToggle();
+    });
 }
 
 function initConsulting() {
@@ -88,6 +105,7 @@ function initLinkTop(){
 }
 function initNav() {
 	$('.open-nav').click(function(){
+        $('.navigation').scrollTop(0);
 		$('body').toggleClass('open-navigation');
 		return false;
 	});

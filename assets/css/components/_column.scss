@@ -22,9 +22,10 @@
   }
 }
 .two-column-block{
-  overflow: hidden;
   @include box-flex;
   @include space-between;
+  overflow: hidden;
+  padding:0 10px;
   .two-column-sidebar{
     overflow: hidden;
     width: 100%;

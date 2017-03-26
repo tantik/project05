@@ -18,11 +18,15 @@
 @import "components/column";
 @import "components/interview";
 @import "components/privacypolicy";
+@import "components/qa";
+@import "components/about";
+@import "components/entry-form";
 
 /* main styles begin */
 .wrapper{
   position: relative;
   overflow: hidden;
+  border-top: 1px solid #ccc;
 }
 #main{
   padding-bottom: 100px;
@@ -136,9 +140,39 @@
       background-size: auto 66px;
     }
   }
+  &.qa{
+    background: url(../images/bg-qa.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top06.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.about{
+    background: url(../images/bg-about.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top07.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
+  &.entry-form{
+    background: url(../images/bg-entry-form.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top08.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
   @media only screen and (max-width: 800px) {
     &{
       margin: 0 0 34px;
+    }
+    &.entry-form{
+      & h1{
+        background: url(../images/title-inner-top08.png) no-repeat 50%;
+        background-size: auto 60px;
+      }
     }
   }
 }
