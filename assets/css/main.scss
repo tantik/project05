@@ -131,6 +131,12 @@
       background: url(../images/title-inner-top04.png) no-repeat 50%;
       background-size: auto 66px;
     }
+    &.add01{
+      & h1{
+        background: url(../images/title-inner-top10.png) no-repeat 50%;
+        background-size: auto 66px;
+      }
+    }
   }
   &.privacy-policy{
     background: url(../images/bg-privacy-policy.png) 50%;
@@ -164,6 +170,14 @@
       background-size: auto 66px;
     }
   }
+  &.about-add{
+    background: url(../images/bg-about-add.png) 50%;
+    margin-bottom: 0;
+    & h1{
+      background: url(../images/title-inner-top09.png) no-repeat 50%;
+      background-size: auto 66px;
+    }
+  }
   @media only screen and (max-width: 800px) {
     &{
       margin: 0 0 34px;
@@ -172,6 +186,14 @@
       & h1{
         background: url(../images/title-inner-top08.png) no-repeat 50%;
         background-size: auto 60px;
+      }
+    }
+    &.interview{
+      &.add01{
+        & h1{
+          background: url(../images/title-inner-top10.png) no-repeat 50%;
+          background-size: auto 54px;
+        }
       }
     }
   }
