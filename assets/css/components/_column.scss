@@ -1,6 +1,7 @@
 /* section-column styles begin */
 .section-column{
   overflow: hidden;
+  overflow: hidden;
   padding: 92px 0;
   .title-column{
     overflow: hidden;
@@ -63,7 +64,6 @@
             padding-top: 20px;
           }
           .wrap-box{
-            display: block;
             @include box-flex;
             @include space-between;
             overflow: hidden;
@@ -190,6 +190,7 @@
             padding: 0 16px;
             font-size: 14px;
             line-height: 23px;
+            font-style: normal;
             color: #666;
           }
         }
@@ -268,6 +269,7 @@
       padding:0 15px;
       font-size: 14px;
       line-height: 23px;
+      font-style: normal;
       color: #666;
     }
   }
@@ -365,6 +367,7 @@
         & i{
           float: none;
           display: inline-block;
+          font-style: normal;
         }
       }
       & h2{
