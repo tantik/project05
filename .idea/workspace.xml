@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6e9e79-700b-4d7d-b3ce-c9a4a61c229d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public.zip" afterPath="$PROJECT_DIR$/public.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/components/_about.scss" afterPath="$PROJECT_DIR$/assets/css/components/_about.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/components/_interview.scss" afterPath="$PROJECT_DIR$/assets/css/components/_interview.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.scss" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/debug.log" afterPath="$PROJECT_DIR$/public/debug.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,13 +23,26 @@
     <splitter split-orientation="horizontal" split-proportion="0.5679812">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="interview-add01.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="interview-add01.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/interview-add01.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="63" selection-end-column="22" />
                   <folding>
                     <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="interview-add02.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/interview-add02.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-422">
+                  <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+                  <folding>
+                    <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -54,7 +62,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="298">
@@ -69,17 +77,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_interview.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gulpfile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_interview.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/css/components/_interview.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="707">
-                  <caret line="449" column="0" lean-forward="false" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+                <state relative-caret-position="-3162">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding>
-                    <element signature="e#1074#1326#0" expanded="false" />
-                    <element signature="e#1352#1603#0" expanded="false" />
-                    <element signature="e#2548#2646#0" expanded="false" />
-                    <element signature="e#2650#2741#0" expanded="false" />
-                    <element signature="e#4034#4505#0" expanded="false" />
+                    <element signature="e#1112#1364#0" expanded="false" />
+                    <element signature="e#1390#1641#0" expanded="false" />
+                    <element signature="e#3773#3871#0" expanded="false" />
+                    <element signature="e#3875#3966#0" expanded="false" />
+                    <element signature="e#5237#5708#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -107,6 +125,7 @@
       <find>240px</find>
       <find>selerc-area-item</find>
       <find>block-about-twocol</find>
+      <find>box-program-contents</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,8 +165,9 @@
         <option value="$PROJECT_DIR$/public/aboutadd.html" />
         <option value="$PROJECT_DIR$/assets/css/components/_about.scss" />
         <option value="$PROJECT_DIR$/public/interview-add01.html" />
-        <option value="$PROJECT_DIR$/assets/css/components/_interview.scss" />
         <option value="$PROJECT_DIR$/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/public/interview-add02.html" />
+        <option value="$PROJECT_DIR$/assets/css/components/_interview.scss" />
       </list>
     </option>
   </component>
@@ -450,12 +470,12 @@
       <workItem from="1490280116600" duration="31436000" />
       <workItem from="1490514981421" duration="62000" />
       <workItem from="1490519818407" duration="21979000" />
-      <workItem from="1490627967671" duration="4804000" />
+      <workItem from="1490627967671" duration="9493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136325000" />
+    <option name="totallyTimeSpent" value="141014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -492,27 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/helpers/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#906#1172#0" expanded="false" />
-            <element signature="e#1179#1808#0" expanded="false" />
-            <element signature="e#4579#5559#0" expanded="false" />
-            <element signature="e#5579#5913#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/components/_search.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2890">
@@ -869,6 +868,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="135" column="55" lean-forward="false" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
+          <folding>
+            <element signature="e#906#1172#0" expanded="false" />
+            <element signature="e#1179#1808#0" expanded="false" />
+            <element signature="e#4579#5559#0" expanded="false" />
+            <element signature="e#5579#5913#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -879,37 +899,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/interview-add01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="63" selection-end-column="22" />
           <folding>
             <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/components/_interview.scss">
+    <entry file="file://$PROJECT_DIR$/public/interview-add02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="449" column="0" lean-forward="false" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        <state relative-caret-position="-422">
+          <caret line="69" column="68" lean-forward="false" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
           <folding>
-            <element signature="e#1074#1326#0" expanded="false" />
-            <element signature="e#1352#1603#0" expanded="false" />
-            <element signature="e#2548#2646#0" expanded="false" />
-            <element signature="e#2650#2741#0" expanded="false" />
-            <element signature="e#4034#4505#0" expanded="false" />
+            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#section#1;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/components/_interview.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="135" column="55" lean-forward="false" selection-start-line="135" selection-start-column="55" selection-end-line="135" selection-end-column="55" />
+        <state relative-caret-position="-3162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#906#1172#0" expanded="false" />
-            <element signature="e#1179#1808#0" expanded="false" />
-            <element signature="e#4579#5559#0" expanded="false" />
-            <element signature="e#5579#5913#0" expanded="false" />
+            <element signature="e#1112#1364#0" expanded="false" />
+            <element signature="e#1390#1641#0" expanded="false" />
+            <element signature="e#3773#3871#0" expanded="false" />
+            <element signature="e#3875#3966#0" expanded="false" />
+            <element signature="e#5237#5708#0" expanded="false" />
           </folding>
         </state>
       </provider>
